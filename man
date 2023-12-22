@@ -1,0 +1,49 @@
+# NAME
+
+hsh - Your Shell Name
+
+# SYNOPSIS
+
+**hsh** [OPTION]... [FILE]...
+
+# DESCRIPTION
+
+`hsh` is a simple Unix shell designed and implemented for educational purposes.
+
+# OPTIONS
+
+- `-h`, `--help`: Display this help message and exit.
+- `-v`, `--version`: Output version information and exit.
+
+# COMMANDS
+
+- **cd** *directory*: Change the current working directory.
+- **exit** [status]: Exit the shell with an optional exit status.
+- **env**: Print the current environment.
+
+# INTERACTIVE MODE
+
+When started without any arguments, `hsh` enters interactive mode, allowing users to enter commands interactively.
+
+# REDIRECTION
+
+`hsh` supports basic input and output redirection using the `<` and `>` operators.
+
+# PIPES
+
+Commands can be chained together using pipes (`|`) to pass the output of one command as input to another.
+
+# EXIT STATUS
+
+The exit status of `hsh` is the exit status of the last executed command, or zero if no command is executed.
+
+# EXAMPLES
+
+```bash
+$ hsh
+$ ls -l
+$ cd /path/to/directory
+$ echo "Hello, World!" > output.txt
+$ cat input.txt | grep "pattern"
+$ exit 1
+
