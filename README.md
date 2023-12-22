@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Holberton Simple Shell
 
 This is a simple Unix shell implementation for the Holberton School project.
@@ -156,5 +156,3 @@ In non interactive mode:
     hsh main.c shell.c test_ls_2
     hsh main.c shell.c test_ls_2
     $
->>>>>>> 26e5f4d8767f706b9cfe49941236105080dcc1d7
-
